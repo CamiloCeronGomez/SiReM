@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SiReM</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="edttxt_usr">User</string>
+    <string name="edttxt_pass">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+</resources>

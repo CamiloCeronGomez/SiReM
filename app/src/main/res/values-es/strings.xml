@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SiReM</string>
+
+    <string name="hello_world">Hola Mundo</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="edttxt_usr">Usuario</string>
+    <string name="edttxt_pass">Contraseña</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="btn_register">Registrarce</string>
+
+</resources>
