@@ -1,5 +1,6 @@
 package cf.app.camiloceron.com.sirem;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -45,7 +46,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btn_login: break;
-            case R.id.btn_register:break;
+            case R.id.btn_register:
+                Intent intent = new Intent (MainActivity.this, RegisterActivity.class);
+                startActivity(intent);
+                break;
 
 
         }
