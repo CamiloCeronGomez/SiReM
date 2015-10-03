@@ -1,9 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-<TextView
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Datos"/>
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tipe_les"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo de Lesion"/>
+    <EditText
+        android:id="@+id/edittxt_tipe_les"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ej: Fractura"
+        android:inputType="text"
+        android:layout_marginBottom="@dimen/padding_small"/>
+    <TextView
+        android:id="@+id/location_lesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Localizacion de la Lesion"/>
+    <EditText
+        android:id="@+id/edittxt_location_lesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ej: Tendor extensor"
+        android:inputType="text"
+        android:layout_marginBottom="@dimen/padding_small"/>
+    <TextView
+        android:id="@+id/rehability_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado de la Rehabilitacon"/>
+    <EditText
+        android:id="@+id/edittxt_rehability_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ej: Se encuentra con muy poca extension en su mano derecha"
+        android:inputType="text"
+        android:layout_marginBottom="@dimen/padding_small"/>
+    <TextView
+        android:id="@+id/others"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Otros"/>
+    <EditText
+        android:id="@+id/edittxt_others"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ej: Es una persona invidente"
+        android:inputType="text"
+        android:layout_marginBottom="@dimen/padding_small"/>
 </LinearLayout>
